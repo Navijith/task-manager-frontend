@@ -4,23 +4,22 @@ import API from "../services/api";
 function TaskList() {
   const [tasks, setTasks] = useState([]);
 
-  useEffect(() => {
-    fetchTasks();
-  }, []);
-
   const fetchTasks = async () => {
     try {
-      const response = await API.get("/");
+      const response = await API.get("/tasks");
       setTasks(response.data);
     } catch (error) {
       console.log(error);
     }
   };
 
+  useEffect(() => {
+    fetchTasks();
+  }, []);
+
   const deleteTask = async (id) => {
     try {
-      await API.delete(`/${id}`);
-      alert("Task Deleted Successfully");
+      await API.delete(`/tasks/${id}`);
       fetchTasks();
     } catch (error) {
       console.log(error);
@@ -29,11 +28,10 @@ function TaskList() {
 
   const updateStatus = async (id) => {
     try {
-      await API.put(`/${id}`, {
+      await API.put(`/tasks/${id}`, {
         status: "Completed",
       });
 
-      alert("Task Marked as Completed");
       fetchTasks();
     } catch (error) {
       console.log(error);
@@ -52,8 +50,8 @@ function TaskList() {
             key={task._id}
             style={{
               border: "1px solid #ccc",
-              padding: "10px",
               margin: "10px",
+              padding: "10px",
             }}
           >
             <h3>{task.title}</h3>
@@ -62,13 +60,13 @@ function TaskList() {
 
             <button
               onClick={() => updateStatus(task._id)}
-              style={{ marginRight: "10px" }}
             >
               Mark Complete
             </button>
 
             <button
               onClick={() => deleteTask(task._id)}
+              style={{ marginLeft: "10px" }}
             >
               Delete
             </button>

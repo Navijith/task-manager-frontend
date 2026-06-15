@@ -19,7 +19,7 @@ function TaskForm() {
     e.preventDefault();
 
     try {
-      await API.post("/", task);
+      await API.post("/tasks", task);
 
       alert("Task Added Successfully");
 
@@ -31,6 +31,7 @@ function TaskForm() {
 
       window.location.reload();
     } catch (error) {
+      console.log("Add Task Error:", error.response?.data);
       console.log(error);
     }
   };
