@@ -1,4 +1,4 @@
-# Task Manager Frontend
+<img width="1257" height="681" alt="Screenshot 2026-06-18 102331" src="https://github.com/user-attachments/assets/e640759e-58b6-4a00-ac08-de60d51f7551" /># Task Manager Frontend
 
 ## Project Overview
 
@@ -114,11 +114,14 @@ await API.post("/tasks", task);
 
 Screenshot 2: Add Task Form
 
-(Add Screenshot Here)
+<img width="657" height="912" alt="Screenshot 2026-06-18 110048" src="https://github.com/user-attachments/assets/d0ce6608-ee0c-4012-95e0-7935647f3c25" />
+
+
 
 Screenshot 3: Task Added Successfully
 
-(Add Screenshot Here)
+<img width="1257" height="681" alt="Screenshot 2026-06-18 102331" src="https://github.com/user-attachments/assets/eb2f9db1-fc76-4816-867d-b2c70450a7d9" />
+
 
 Screenshot 4: Task Status Updated
 
@@ -126,7 +129,8 @@ Screenshot 4: Task Status Updated
 
 Screenshot 5: Task Deleted
 
-(Add Screenshot Here)
+<img width="603" height="915" alt="Screenshot 2026-06-18 110150" src="https://github.com/user-attachments/assets/0773df3f-cbcd-4353-ad0a-d9ba3d549e98" />
+
 
 ---
 
@@ -173,11 +177,13 @@ await API.post("/auth/register", {
 
 Screenshot 6: Registration Page
 
-(Add Screenshot Here)
+<img width="746" height="484" alt="Screenshot 2026-06-18 102112" src="https://github.com/user-attachments/assets/fbda28b2-1cfb-403c-b44c-16cfc87ed750" />
+
 
 Screenshot 7: Registration Successful
 
-(Add Screenshot Here)
+<img width="1267" height="618" alt="Screenshot 2026-06-18 102132" src="https://github.com/user-attachments/assets/e842d2a3-2613-453c-ab38-eafd74af0df6" />
+
 
 ---
 
@@ -214,7 +220,8 @@ Screenshot 8: Login Page
 
 Screenshot 9: Login Successful
 
-(Add Screenshot Here)
+<img width="514" height="409" alt="Screenshot 2026-06-18 102240" src="https://github.com/user-attachments/assets/143e336d-c9af-46d0-a8d8-f43d54c6c2fc" />
+
 
 ---
 
@@ -236,7 +243,8 @@ function ProtectedRoute({ children }) {
 
 Screenshot 10: Protected Route Redirect
 
-(Add Screenshot Here)
+<img width="791" height="617" alt="Screenshot 2026-06-18 110411" src="https://github.com/user-attachments/assets/0278d761-3371-45c8-af8e-0a90e4007365" />
+
 
 ---
 
@@ -253,7 +261,8 @@ const logout = () => {
 
 Screenshot 11: Logout Functionality
 
-(Add Screenshot Here)
+<img width="854" height="418" alt="image" src="https://github.com/user-attachments/assets/f792f8fe-590c-456e-b827-bc81c2da23f0" />
+
 
 ---
 
