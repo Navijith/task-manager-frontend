@@ -73,9 +73,8 @@ setTasks(response.data);
 
 Screenshot 1: Task List Display
 
-(Add Screenshot Here)
+<img width="897" height="817" alt="Screenshot 2026-06-18 102410" src="https://github.com/user-attachments/assets/817cac95-be16-40a7-8db3-46b0129b6f18" />
 
----
 
 # Task 2: React Frontend CRUD Interface
 
