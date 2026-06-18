@@ -1,4 +1,4 @@
-<img width="1257" height="681" alt="Screenshot 2026-06-18 102331" src="https://github.com/user-attachments/assets/e640759e-58b6-4a00-ac08-de60d51f7551" /># Task Manager Frontend
+# Task Manager Frontend
 
 ## Project Overview
 
